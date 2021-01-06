@@ -1,0 +1,161 @@
+*{
+     margin: 0;
+     padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+     font-size: 60px;
+     padding-top: 15px;
+     font-weight: bold;
+}
+h2{
+     font-size: 48px;
+}
+h3{
+     font-size: 30px;
+}
+h5{
+     font-size: 20px;
+     color: #363958;
+     line-height: 40px;
+}
+p {
+     font-size: 20px;
+     font-weight: normal;
+     color: dimgray;
+     margin-bottom: 30px;
+}
+a{
+     text-decoration: none;
+}
+     /* menu part start */
+.right-menu{
+     text-align: right;
+     margin-bottom: 50px;
+}
+.right-menu ul{
+     list-style-type: none;
+     margin-top: 30px;
+}
+.right-menu ul li{
+     display: inline-block;
+     padding-right: 60px;
+}
+.right-menu ul li a{
+     font-size: 16px;
+     text-decoration: none;
+     color: black;
+}
+     /*menu part end*/
+     /* about part start */
+.link-bottom{
+     padding: 10px 20px;
+     background-image: linear-gradient(145deg,rgb(248, 118, 67),rgb(216, 41, 10),rgb(243, 48, 155));
+     border-radius: 5px;
+     color: white;
+     font-weight: 500;
+}
+.fixd-height{
+     height: 500px;
+     
+}
+.half-width{
+     width: 40%;
+     margin-left: 5%;
+     padding-left: 2%;
+     float: left;
+
+}
+.blue-heighlight{
+     color: rgb(54,57,88);
+}
+.orange-heighlight{
+     color: rgb(138, 103, 40);
+}
+.tomato-heighlight{
+     color: tomato;
+}
+.half-width img{
+     width: 100%;
+}
+.work-heading{
+     text-align: center;
+     display: inline-block;
+     width: 100%;
+}
+     /* about part end */
+     /* portfolio part start */
+.experience-area{
+     background-color: #f7f8fb;
+     padding-bottom: 150px;
+}
+.box-width {
+    width: 28%;
+    margin-right: 10px;
+    float: left;
+    padding: 20px;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+    margin-top: 60px;
+}
+.box-one{
+     margin-left: 35px;
+}
+.box-one img{
+     width: 100%;
+}
+.box-two img{
+     width: 100%;
+}
+.box-three img{
+     width: 100%;
+}
+     /* portfolio part end */
+     /* contact part start */
+.cont-bg{
+     background-image: url(images/Group_33094_1.png);
+     width: 60%;
+     margin-left: auto;
+     margin-right: auto;
+     display: block; background-repeat: no-repeat;
+     background-size: 100%;
+     margin-bottom: 150px;
+}
+.cont-bg h1 {
+     font-size: 42px;
+     color: white;
+     padding: 75px 55px;
+     display: inline-block;
+}
+.cont-bg a{
+     float: right;
+     color: white;
+     margin: 75px 55px;
+}
+     /* contact part end */
+     /* worker part start */
+.team-area{
+     text-align: center;
+}
+.team-area div{
+     display: inline-block;
+     width: 20%;
+}
+     /* worker part end */
+     /* footer part start */
+footer{
+     text-align: center;
+}
+footer p{
+     font-size: 15px;
+}
+footer h3{
+     color: #363958;
+     margin-bottom: 30px;
+}
+footer img {
+     width: 32px;
+}
+     /* footer part end */
